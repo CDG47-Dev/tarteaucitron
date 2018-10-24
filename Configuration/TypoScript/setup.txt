@@ -16,14 +16,13 @@ page {
    # Language configuration
    jsInline.12354 = TEXT
    jsInline.12354 {
-      value = en
+      value = fr
       wrap = var tarteaucitronForceLanguage = '|';
    }
    jsInline.12355 = RECORDS
    jsInline.12355 {
       tables = tt_content
       source = {$plugin.tx_tarteaucitron.header_content_uid}
-      source = 54302
       dontCheckPid = 1
       if.isGreaterThan = {$plugin.tx_tarteaucitron.header_content_uid}
       if.value = 0
