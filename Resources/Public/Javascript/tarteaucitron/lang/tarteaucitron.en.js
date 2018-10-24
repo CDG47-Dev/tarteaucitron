@@ -8,13 +8,15 @@ tarteaucitron.lang = {
     "alertBigClick": "If you continue to browse this website,",
     "alertBig": "you are allowing all third-party services",
     
-    "alertBigPrivacy": "This website uses cookies. Please personalize them according to your wishes",
+    "alertBigPrivacy": "This site uses cookies and gives you control over what you want to activate",
     "alertSmall": "Manage services",
     "personalize": "Personalize",
     "acceptAll": "OK, accept all",
     "close": "Close",
+
+    "privacyUrl": "Privacy policy",
     
-    "all": "Preferences for all services",
+    "all": "Preference for all services",
 
     "info": "Protecting your privacy",
     "disclaimer": "By allowing these third party services, you accept their cookies and the use of tracking technologies necessary for their proper functioning.",
@@ -27,6 +29,14 @@ tarteaucitron.lang = {
     "more": "Read more",
     "source": "View the official website",
     "credit": "Cookies manager by tarteaucitron.js",
+
+    "toggleInfoBox": "Show/hide informations about cookie storage",
+    "title": "Cookies management panel",
+    "cookieDetail": "Cookie detail for",
+    "ourSite": "on our site",
+    "newWindow": "(new window)",
+    "allowAll": "Allow all cookies",
+    "denyAll": "Deny all cookies",
     
     "fallback": "is disabled.",
 
