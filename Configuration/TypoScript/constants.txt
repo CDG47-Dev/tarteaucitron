@@ -128,7 +128,12 @@ plugin.tx_tarteaucitron {
    xiti = 0
    # cat=tarteaucitron/3_audience_measurement/326; type=string; label=Xiti : ID
    xiti_id = YOUR ID
-
+   # cat=tarteaucitron/3_audience_measurement/327; type=boolean; label=Matomo : enabled
+   matomo = 0
+   # cat=tarteaucitron/3_audience_measurement/328; type=string; label=Matomo : SITE ID
+   matomo_site_id = YOUR SITE ID
+   # cat=tarteaucitron/3_audience_measurement/329; type=string; label=Matomo : MATOMO URL
+   matomo_url = YOUR MATOMO URL 
 
    #Comment
    # cat=tarteaucitron/4_comment/401; type=boolean; label=Disqus : enabled
