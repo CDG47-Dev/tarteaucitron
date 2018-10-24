@@ -493,7 +493,14 @@ page {
             101.value = youtube
             if.isTrue = {$plugin.tx_tarteaucitron.youtube}
          }
-
+	 
+	 660 < .10
+         660 {
+            10.value = tarteaucitron.user.matomoId = '{$plugin.tx_tarteaucitron.matomo_site_id}';
+	    20.value = tarteaucitron.user.matomoHost = '{$plugin.tx_tarteaucitron.matomo_url}';
+            101.value = matomo
+            if.isTrue = {$plugin.tx_tarteaucitron.matomo}
+	}
       }
    }
 }
